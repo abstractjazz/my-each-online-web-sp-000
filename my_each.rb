@@ -1,8 +1,9 @@
 
 def my_each(names)  # put argument(s) here
-i = 0
-  yield(names) |i| # code here
+i = 0 # code here
+
   while i < names.length
+    yield(names)[i]
     i += 1
   end
 end
