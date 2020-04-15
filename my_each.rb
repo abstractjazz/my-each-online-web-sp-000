@@ -6,4 +6,5 @@ i = 0 # code here
     yield (names[i]) 
     i += 1
   end
+  names 
 end
