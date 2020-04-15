@@ -1,3 +1,6 @@
-def my_each # put argument(s) here
-  # code here
-end
+names =[]
+
+def my_each(names) do |i| # put argument(s) here
+  yield(names) |i| # code here
+  end
+end 
